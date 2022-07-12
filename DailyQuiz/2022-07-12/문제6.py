@@ -1,0 +1,10 @@
+#주어진 숫자의 평균을 구하는 코드를 작성하시오.
+#sum(), len()  함수 사용 금지
+
+
+numbers = [0,20,100]
+max = -9999
+for i in numbers:
+    if i > max:
+        max = i
+print(max)
